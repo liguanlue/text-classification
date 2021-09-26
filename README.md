@@ -10,11 +10,13 @@ Text Classification Based on Naive Bayes
 		(4) Divide the original data into training set and test set, and generate corresponding label files
 		
 	1.2 Feature extraction
+	
 		(1) Calculate word frequency
 		(2) Represent the document as a word vector
 		(3) The sparse matrix represented by the output word vector
 	
 	1.3 tf-idf
+	
 		(1) Express the document as the value of tf-idf in the form of a sparse matrix
 		(2) Use the document represented by tf-idf as the training data of the Bayesian classification system
 		
