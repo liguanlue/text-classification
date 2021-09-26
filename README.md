@@ -2,10 +2,11 @@
 Text Classification Based on Naive Bayes 
 
 1. Data Processing
+
 	1.1 Data preprocessing
 	
-		(1) Word segmentation: Use the pseg.cut method in the jieba library to get the result of word segmentation and the part of speech of each word
-		(2) Delete designated parts of speech: such as adjectives, adverbs, conjunctions, pronouns, prepositions, time, etc.
+		- Word segmentation: Use the pseg.cut method in the jieba library to get the result of word segmentation and the part of speech of each word
+		- Delete designated parts of speech: such as adjectives, adverbs, conjunctions, pronouns, prepositions, time, etc.
 		(3) Delete stop words
 		(4) Divide the original data into training set and test set, and generate corresponding label files
 		
